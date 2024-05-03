@@ -1,3 +1,5 @@
-export const fn = (/* argumentos de la función */) => {
-   // Cuerpo de la función: Completa la lógica de la función aquí.
+// Función para calcular el precio total de las empanadas
+export const fn = (empanadaPollo, empanadaCarne, empanadaVegetariana) => {
+
+  
 };
