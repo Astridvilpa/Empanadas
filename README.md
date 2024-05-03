@@ -88,7 +88,9 @@ Pasar los test de validación de errores en la entrada de datos (Throws error)
 
 - Se realiza la comprobación de las condiciones antes de realizar cualquier cálculo:
 
-       Se verifica que la suma de las cantidades de empanada cada tipo no exceda 40, que sea al menos 3. Que cada cantidad de empanada sea mayor o igual a cero y que numero de empanadas sea divisible entre 3.
+       Se verifica que la suma de las cantidades de empanada cada tipo no exceda 40.
+       Que sea al menos 3. Que cada cantidad de empanada sea mayor o igual a cero.
+        Que el numero de empanadas sea divisible por 3.
 
 - Luego que la condiciones se cumplan se calcula el precio total de cada empanada sumando el costo de cada tipo y multiplicando por su cantidad, el total se divide para obtener el total ya que la empanada que se paga es la más cara de cada grupo de tres.
 
