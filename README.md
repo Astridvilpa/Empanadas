@@ -82,5 +82,19 @@ Pasar los test de validación de errores en la entrada de datos (Throws error)
      ✓ Throws error when the total sum of inputs (2+2+1) is not a multiple of 3: fn(2, 2, 1)
      ✓ Throws error when the total sum of inputs (15+15+20) is not less than 40: fn(15, 15, 20)
 ```
+### REALIZACIÓN DEL PROBLEMA
 
+- Se declara la función 
+
+- Se realiza la comprobación de las condiciones antes de realizar cualquier cálculo:
+
+       Se verifica que la suma de las cantidades de empanada cada tipo no exceda 40, que sea al menos 3. Que cada cantidad de empanada sea mayor o igual a cero y que numero de empanadas sea divisible entre 3.
+
+- Luego que la condiciones se cumplan se calcula el precio total de cada empanada sumando el costo de cada tipo y multiplicando por su cantidad, el total se divide para obtener el total ya que la empanada que se paga es la más cara de cada grupo de tres.
+
+- Se realiza un redondeo utilizando Math.ceil asegurando que el precio sea un numero entero.
+
+- Se utilizo el else por si alguna condicion de entrada no se cumple lanze un error.
+
+- Se realiza la comprobacion de que funciones mediante npm run test y efectivamente funciona.
  
