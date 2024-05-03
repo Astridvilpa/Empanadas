@@ -97,7 +97,7 @@ Pasar los test de validación de errores en la entrada de datos (Throws error)
 
 ### REALIZACIÓN DEL PROBLEMA
 
-<img src="javascript-empanadas-challenge/main.png" alt="main.png" width="300" height="200">
+<img src="img/main.png" alt="main.png" width="300" height="200">
 
 
 - Se declara la función que representan la cantidad de empanadas de pollo, carne y vegetarianas respectivamente. 
@@ -126,7 +126,7 @@ Pasar los test de validación de errores en la entrada de datos (Throws error)
 
 - Se realiza la comprobación con test.
 
-<img src="javascript-empanadas-challenge/test.png" alt="test.png" width="300" height="200">
+<img src="img/test.png" alt="test.png" width="300" height="200">
 
 ✒️ Autor 
  - Astrid Viloria
