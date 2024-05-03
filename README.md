@@ -1,3 +1,13 @@
+
+### Contenido  📁
+ - Descripción del enunciado
+ - Instrucciones de uso
+ - Evaluación
+ - Tecnología usada
+ - Realización del problema
+ - Autor
+
+
 # Compra de empanadas
 
 ## Enunciado del problema
@@ -82,7 +92,13 @@ Pasar los test de validación de errores en la entrada de datos (Throws error)
      ✓ Throws error when the total sum of inputs (2+2+1) is not a multiple of 3: fn(2, 2, 1)
      ✓ Throws error when the total sum of inputs (15+15+20) is not less than 40: fn(15, 15, 20)
 ```
+### Tecnología
+![JavaScript](https://img.shields.io/badge/-JavaScript-black?style=flat&logo=javascript)
+
 ### REALIZACIÓN DEL PROBLEMA
+
+<img src="javascript-empanadas-challenge/main.png" alt="Descripción de la imagen" width="300" height="200">
+
 
 - Se declara la función que representan la cantidad de empanadas de pollo, carne y vegetarianas respectivamente. 
 
@@ -107,3 +123,7 @@ Pasar los test de validación de errores en la entrada de datos (Throws error)
 
 - Si alguna de las condiciones no se cumple, se arroja un error para indicar.
     Que ha ocurrido un problema en la compra de empanadas.
+
+- Se realiza la comprobación con test.
+
+<img src="javascript-empanadas-challenge/test.png" alt="Descripción de la imagen" width="300" height="200">
