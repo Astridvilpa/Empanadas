@@ -84,20 +84,26 @@ Pasar los test de validación de errores en la entrada de datos (Throws error)
 ```
 ### REALIZACIÓN DEL PROBLEMA
 
-- Se declara la función 
+- Se declara la función que representan la cantidad de empanadas de pollo, carne y vegetarianas respectivamente. 
 
-- Se realiza la comprobación de las condiciones antes de realizar cualquier cálculo:
+- Se verifican una serie de condiciones para asegurarse de que los parámetros de entrada cumplan con ciertos requisitos:
 
-       ✓ Se verifica que la suma de las cantidades de empanada cada tipo no exceda 40.
-       ✓ Que sea al menos 3. 
-       ✓Que cada cantidad de empanada sea mayor o igual a cero.
-       ✓ Que el numero de empanadas sea divisible por 3.
+       ✓ Se verifica que la suma total de las empanadas (de cualquier tipo) sea menor que 40 y mayor o igual a 3. 
+         Esto asegura que el número total de empanadas sea válido según el enunciado.
+       ✓ Se verifica que la cantidad de cada tipo de empanada sea mayor o igual a cero. 
+       ✓ Se verifica que la suma total de empanadas sea divisible por 3, ya que se garantiza.
+        Que el número total de empanadas es un múltiplo de 3.
 
-- Luego que la condiciones se cumplan se calcula el precio total de cada empanada sumando el costo de cada tipo y multiplicando por su cantidad, el total se divide para obtener el total ya que la empanada que se paga es la más cara de cada grupo de tres.
+- Si las condiciones son cumplidas, se procede a calcular el precio total de todas las empanadas:
+       
+       ✓ Se calcula el costo total de cada tipo de empanada multiplicando la cantidad de empanadas por su precio.
+       ✓ Luego, se suman estos costos totales y se dividen por 3 para aplicar la oferta especial.
+       ✓El resultado es el precio total de todas las empanadas.
 
-- Se realiza un redondeo utilizando Math.ceil asegurando que el precio sea un numero entero.
+- El precio total calculado se redondea hacia arriba utilizando la función Math.ceil(). 
+  Esto asegura que el precio final refleje la cantidad mínima de euros que se deben pagar.
 
-- Se utilizo el else por si alguna condicion de entrada no se cumple lanze un error.
+-  Se retorna el precio total calculado como resultado de la función.
 
-- Se realiza la comprobacion de que funciones mediante npm run test y efectivamente funciona.
- 
+- Si alguna de las condiciones no se cumple, se arroja un error para indicar.
+    Que ha ocurrido un problema en la compra de empanadas.
